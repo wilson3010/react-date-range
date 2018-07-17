@@ -1,6 +1,6 @@
 export default {
     en: {
-        // Chinese
+        // English
         january: "January",
         february: "February",
         march: "March",

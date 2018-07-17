@@ -127,7 +127,7 @@ class Calendar extends Component {
                 ) : null}
                 <span>
                     <span className={classes.year}>{year}</span>
-                    <span className={classes.monthAndYearDivider}> - </span>
+                    <span className={classes.monthAndYearDivider}> </span>
                     <span className={classes.month}>{month}</span>
                 </span>
                 {showMonthArrow ? (
