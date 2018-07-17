@@ -5,11 +5,17 @@
     "main": "lib/index.js",
     "scripts": {
         "start-dev": "babel ./src --watch --out-dir ./lib & cd demo && npm install && npm run start-dev",
-        "prebuild": "rm -rf lib/*",
+        "prebuild": "rmdir /s lib",
         "build": "babel ./src --out-dir ./lib",
         "prepublish": "npm run build"
     },
-    "keywords": ["react", "date", "range", "datepicker", "rangepicker"],
+    "keywords": [
+        "react",
+        "date",
+        "range",
+        "datepicker",
+        "rangepicker"
+    ],
     "author": "Burak Can <neoberg@gmail.com>",
     "license": "MIT",
     "repository": {
